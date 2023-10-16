@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_char 
+ * print_char - Print
  * @list: list
- * Return: 
+ * Return: total
  */
 int print_char(va_list list)
 {
@@ -11,9 +11,9 @@ int print_char(va_list list)
 }
 
 /**
- * print_string 
- * @list: 
- * Return: 
+ * print_string - Print
+ * @list: list 
+ * Return: total
  */
 int print_string(va_list list)
 {
@@ -29,9 +29,9 @@ int print_string(va_list list)
 }
 
 /**
- * print_percent 
- * @list:
- * Return: 
+ * print_percent - Print
+ * @list: list
+ * Return: total
  */
 int print_percent(__attribute__((unused))va_list list)
 {
@@ -40,15 +40,46 @@ int print_percent(__attribute__((unused))va_list list)
 }
 
 /**
- * _write_char -
- * @c: 
+ * print_integer - Print
+ * @list: list
+ * Return: total
+ */
+int print_integer(va_list list)
+{
+	int num_length;
+
+	num_length = print_number(list);
+	return (num_length);
+}
+
+/**
+ * unsigned_integer - Print
+ * @list: List
+ * Return: count
+ */
+int unsigned_integer(va_list list)
+{
+	unsigned int num;
+
+	num = va_arg(list, unsigned int);
+
+	if (num == 0)
+		return (print_unsgined_number(num));
+
+	if (num < 1)
+		return (-1);
+	return (print_unsgined_number(num));
+}
+
+
+
+/**
+ * _write_char - write
+ * @c: inpout
  *
- * Return: 
+ * Return: success 1.
  */
 int _write_char(char c)
 {
 	return (write(1, &c, 1));
 }
-
-
-
