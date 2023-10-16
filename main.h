@@ -29,11 +29,7 @@ int print_percent(va_list);
 
 
 
-unsigned int base_len(unsigned int, int);
-char *rev_string(char *);
-void write_base(char *str);
-char *_memcpy(char *dest, char *src, unsigned int n);
-int print_unsgined_number(unsigned int);
+
 
 
 #endif
