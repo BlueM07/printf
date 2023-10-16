@@ -40,40 +40,6 @@ int print_percent(__attribute__((unused))va_list list)
 }
 
 /**
- * print_integer - Print
- * @list: list
- * Return: total
- */
-int print_integer(va_list list)
-{
-	int num_length;
-
-	num_length = print_number(list);
-	return (num_length);
-}
-
-/**
- * unsigned_integer - Print
- * @list: List
- * Return: count
- */
-int unsigned_integer(va_list list)
-{
-	unsigned int num;
-
-	num = va_arg(list, unsigned int);
-
-	if (num == 0)
-		return (print_unsgined_number(num));
-
-	if (num < 1)
-		return (-1);
-	return (print_unsgined_number(num));
-}
-
-
-
-/**
  * _write_char - write
  * @c: inpout
  *
