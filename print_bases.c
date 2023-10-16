@@ -5,7 +5,7 @@ int hex_check(int, char);
 /**
  * print_binary - Convert
  * @list: List
- * Return: 
+ * Return: return
  */
 int print_binary(va_list list)
 {
@@ -44,7 +44,7 @@ int print_binary(va_list list)
 
 /**
  * print_octal - print
- * @list: List 
+ * @list: List
  * Return: Number
  */
 int print_octal(va_list list)

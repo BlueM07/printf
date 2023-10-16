@@ -12,7 +12,7 @@ int print_char(va_list list)
 
 /**
  * print_string - Print
- * @list: list 
+ * @list: list
  * Return: total
  */
 int print_string(va_list list)

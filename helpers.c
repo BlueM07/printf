@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * rev_string - reverses a string 
- *
+ * rev_string - reverses a string
  * @s: string
  * Return: A pointer
  */
@@ -45,7 +44,7 @@ void write_base(char *str)
 
 /**
  * base_len - Calculates
- * @num: The number 
+ * @num: The number
  * @base: bese
  * Return: length
  */

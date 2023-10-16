@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_integer - 
- * @list: 
- * Return: 
+ * print_integer - Print
+ * @list: list
+ * Return: retur.
  */
 int print_integer(va_list list)
 {
@@ -13,9 +13,9 @@ int print_integer(va_list list)
 }
 
 /**
- * unsigned_integer - 
- * @list: 
- * Return: 
+ * unsigned_integer - Print
+ * @list: List
+ * Return: count
  */
 int unsigned_integer(va_list list)
 {
@@ -31,11 +31,10 @@ int unsigned_integer(va_list list)
 	return (print_unsgined_number(num));
 }
 
-
 /**
- * print_number - 
- * @args: 
- * Return: 
+ * print_number - print
+ * @args: args
+ * Return: return
  */
 int print_number(va_list args)
 {
@@ -70,9 +69,9 @@ int print_number(va_list args)
 }
 
 /**
- * print_unsgined_number -
- * @n: 
- * Return: 
+ * print_unsgined_number - print
+ * @n: n
+ * Return: return
  */
 int print_unsgined_number(unsigned int n)
 {

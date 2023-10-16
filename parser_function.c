@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * parser - 
- * @format: 
- * @f_list: 
- * @arg_list: 
- * Return: 
+ * parser - parser
+ * @format: format
+ * @f_list: list
+ * @arg_list: args
+ * Return: return
  */
 int parser(const char *format, conver_t f_list[], va_list arg_list)
 {
