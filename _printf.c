@@ -13,10 +13,6 @@ int _printf(const char *format, ...)
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent},
-		int _write_char(char);
-		int print_char(va_list);
-		int print_string(va_list);
-		int print_percent(va_list);
 		{NULL, NULL}
 	};
 	va_list arg_list;
